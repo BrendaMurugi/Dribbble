@@ -1,6 +1,9 @@
 body{
     background: linear-gradient(to right, rgb(255, 241, 119), rgb(250, 119, 250));
 }
+a{
+    text-decoration: none;
+}
 .title{
     border: solid 1px rgb(255,200,124);
     border-top-left-radius: 5px;
@@ -59,26 +62,41 @@ body{
     margin-top: 40px;
 }
 #google{
-    border: solid 0px rgb(70,130,180);
+    width: 50%;
+    height: 30px;
+    border: solid rgb(70,130,180);
     border-radius: 5px;
-    padding: 1px 40px 8px 10px;
+    font-size: x-small;
     color: white;
     background-color: rgb(70,130,180);
 }
-#g-icon{
-    width: 20px;
-    padding-right: 10px;
-    padding-top: 6px;
+#google-icon{
+    margin-left: 17%;
+    margin-top: 5%;
+}
+#google p{
+    margin-top: -6%;
+    margin-left: 40%;
 }
 #twitter{
     width: 30px;
+    color: grey;
+    text-align: center;
+    padding: 10% 3%;
+    background-color: lightgray;
 }
 #fb{
+    color: grey;
+    text-align: center;
+    padding: 12% 0.1% 5% 0.1%;
+    background-color: lightgray;
     width: 37px;
-    margin-left: 40px;
+    margin-left: 15px;
+    margin-top: -1%;
 }
 .iconss{
     margin-left: 20px;
+    display: flex;
 }
 .lines{
     display: flex;
